@@ -26,4 +26,4 @@ plot(collect(1:10:1000),
     [epsilon(N, P_Cxi, P_C) for N in 1:10:1000],
     xlabel = "N",
     ylabel = "epsilon",
-    marker = :d)
+    marker = :o)
